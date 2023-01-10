@@ -1,0 +1,166 @@
+.accueil{
+    height: 855px
+}
+.accueil__img{
+    width: 100%;
+}
+.accueil__button{
+    display: flex;
+    bottom: 250px;
+    justify-content: center;
+    position: relative;
+    
+}
+.accueil__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 280px;
+    height: 55px;
+    border-radius: 45px;
+}
+.expo{
+    margin-top: 3%;
+    position: relative; 
+    display: flex; 
+    justify-content: flex-end;
+}
+.expo__text{
+    position: absolute; 
+    left: 30px;
+    top: 0;
+    width: 45%;
+    text-align: end;
+}
+.expo__img{
+    padding: 10px;
+}  
+.expo__button{
+    position: absolute; 
+    left: 15px;
+    bottom: 10%;
+}
+.expo__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+#section1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.billeterie{
+    display: flex;
+    margin-top: -10px;
+    background-image: url("../../../public/img/background_billeterie.webp");
+    background-size:cover;
+    height: 560px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.billeterie__boite{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary1);
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+}
+.billeterie__boite-titre{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.billetertie__boite-text{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.billeterie__button{
+    display: flex;
+    bottom: -60px;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+}
+.billeterie__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+.artsandcraft{
+
+}
+.artsandcraft__titre{
+    margin-left: 10px;
+}
+.artsandcraft__text{
+    margin-left: 10px;
+    width: 86%;
+}
+.artsandcraft__button{
+    display: flex;
+    left: 3%;
+    z-index: 3;
+    position: relative;
+}
+.artsandcraft__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+.artsandcraft__line{
+    position: absolute;
+    right: 3%;
+    top: 200%;
+    z-index: -2;
+}
+.artistes{
+    background-image: url("../../../public/img/background_art_craft.webp");
+    background-size:cover;
+    height: 400px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.artistes__boite{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary1);
+    display: flex;
+    border-radius: 20px;
+    margin: 30px;
+}
+.artistes__boite-titre{
+    margin-top: ;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.artistes__boite-text{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.artistes__img{
+
+}
+.artistes__button{
+    display: flex;
+    bottom: -60px;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+}
+.artistes__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
