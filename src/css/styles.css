@@ -1,0 +1,13 @@
+@import url("layout/header.css");
+@import url("layout/body.css");
+@import url("layout/nav.css");
+@import url("layout/footer.css");
+@import url("utils/variables.css");
+@import url("bases/main.css");
+@import url("utils/main.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Syne&display=swap');
+@import url("lib/normalize.css");
+@import url('bases/card.css');
+@import url('bases/carousel.css');
+@import url('bases/form.css');
+@import url('bases/frise.css');
