@@ -105,7 +105,7 @@
 }
 .artsandcraft__button{
     display: flex;
-    left: 3%;
+    margin-left: 10px;
     z-index: 3;
     position: relative;
 }
@@ -163,4 +163,36 @@
     width: 170px;
     height: 50px;
     border-radius: 45px;
+}
+
+.oeuvres {
+    margin-top: 3%;
+    display: flex; 
+    justify-content: space-between ;
+    margin-bottom: 20px;
+}
+.oeuvres__titres{
+
+}
+.oeuvres__text{
+    margin-top: 0;
+    text-align: start;
+    padding-left: 5px;
+}
+
+.oeuvres__img{
+    padding: 10px;
+}
+.oeuvres__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+.ouevres__flex{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+
 }
