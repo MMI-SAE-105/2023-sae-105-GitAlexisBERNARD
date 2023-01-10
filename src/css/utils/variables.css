@@ -1,0 +1,15 @@
+:root{
+    --white: #ffffff; 
+    --primary1: #f8ecd9; 
+    --secondary1: #d1b185; 
+    --primary2: #1b212f; 
+    --gris1: #7d808e; 
+    --button: 500 1.125rem/normal Playfair Display; 
+    --title1: 600 1.5rem/normal Raleway; 
+    --body: 300 1.125rem/normal Raleway; 
+    --soustitre1: 500 1.375rem/normal Playfair Display; 
+    --menu: 400 1.625rem/normal Raleway; 
+    --footer: 400 0.875rem/normal Raleway; 
+    --card: 300 1rem/normal Raleway; 
+    --font-releway : 'Releway', sans-serif;
+}
