@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="../public/icons/Logo.svg">
     <link rel="alternate" hreflang="en" href="../EN_HTML/EN_index.html">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
@@ -42,23 +41,12 @@
         </nav> 
     </header>           
     <main>
-        <div class="page_oeuvre_titre">
-            <div class="page_oeuvre__boite">
-                <h3 class="page_oeuvre__boite-text">Oeuvres</h3>
+        <div class="accueil">
+            <img class="accueil__img" src="../public/img/background_accueil.webp" alt="fond page accueil">
+            <div class="accueil__button">
+                <a href="/FR_HTML/index.html"><button class="accueil__button-text" type="button">Retour à l'accueil</button></a>
             </div>
         </div>
-        <p class="page_oeuvre_text titre_no_margin">Aperçu des ouevres Art&Craft</p>
-        <div class="carte_artistes" x-data="{ index4: 0 }">
-            <a class="arrow_left arrow_4" @click="index4 = (index4 - 1 + images4.length) % images4.length">
-                <i class="fas fa-chevron-left"></i>
-            </a>                
-            <img class="carte_artistes__img" :src="images4[index4]" :alt="altText1[index1]" @click="window.location.href = link4[index4]">
-            <a class="arrow_4 arrow_right" @click="index4 = (index4 + 1) % images4.length">
-                <i class="fas fa-chevron-right"></i>
-            </a>
-            <p class="page_oeuvre_titre_img"x-text="text4[index4]"></p>
-        </div>
-    </main>
     <footer>
         <a class="no_link_page_footer" href="https://www.fondationcartier.com/"><p>À propos</p></a>
         <a class="no_link_page_footer" href="FR_A_Propos.html"><p>Contact</p></a>

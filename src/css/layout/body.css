@@ -46,6 +46,7 @@
     height: 50px;
     border-radius: 45px;
 }
+
 #section1{
     margin: 0;
     padding: 0;
@@ -317,11 +318,6 @@
     margin: 5%;
     width: 86%;
 }
-.page_expo{
-    background-image: url("../../../public/img/background_titre.webp");
-    background-size:cover;
-    height: 80px;
-}
 
 .page_billeterie__button{
     display: flex;
@@ -437,5 +433,158 @@
     height: 50px;
     border-radius: 45px;
 }
-.pa
 
+.page_oeuvre_titre{
+    background-image: url("../../../public/img/background_titre.webp");
+    background-size:cover;
+    height: 80px;
+}
+.page_oeuvre__boite{
+    display: flex;
+    justify-content: center;
+}
+.page_oeuvre__boite-text{
+    border: none;
+    background-color: var(--primary1);
+    width: 90%;
+    height: 30px;
+    border-radius: 45px;
+    border: #000 solid 1px;
+    text-align: center;
+    font-family: var(--fontreleway);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-top: 5px;    
+}
+.page_oeuvre_text{
+    margin: 5%;
+    width: 86%;
+    text-align: center;
+}
+.titre_no_margin{
+    margin-bottom: -5%;
+}
+.page_oeuvre_titre_img{
+    text-align: center;
+    font-family: var(--fontdisplay);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.page_ouevre_indi{
+    background-image: url("../../../public/img/background_page_oeuvre.webp");
+    background-size:cover;
+    height: 3px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 570px;
+    margin-bottom: 10%;
+}
+.page_ouevre_indi__boite{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary1);
+    display: flex;
+    border-radius: 20px;
+    margin: 30px;
+    padding-top: 15px;
+
+}
+.page_ouevre_indi__boite-titre{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.oeuvre_art__img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.page_ouevre_indi_beaver{
+    background-image: url("../../../public/img/background_page_oeuvre.webp");
+    background-size:cover;
+    height: 3px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 400px;
+    margin-bottom: 10%;
+}
+.page_ouevre_indi_house{
+    background-image: url("../../../public/img/background_page_oeuvre.webp");
+    background-size:cover;
+    height: 3px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 670px;
+    margin-bottom: 10%;
+}
+.page_ouevre_indi_geoffrey{
+    background-image: url("../../../public/img/background_page_oeuvre.webp");
+    background-size:cover;
+    height: 3px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 670px;
+    margin-bottom: 10%;  
+}
+.page_oeuvre_titre_geo{
+    background-image: url("../../../public/img/background_titre.webp");
+    background-size:cover;
+    height: 120 px;
+}
+.page_oeuvre__boite_geo{
+    display: flex;
+    justify-content: center;
+}
+.page_oeuvre__boite-text_geo{
+    border: none;
+    background-color: var(--primary1);
+    width: 90%;
+    height: 58px;
+    border-radius: 45px;
+    border: #000 solid 1px;
+    text-align: center;
+    font-family: var(--fontreleway);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-top: 5px;    
+}
+.page_ouevre_indi_lampe{
+    background-image: url("../../../public/img/background_page_oeuvre.webp");
+    background-size:cover;
+    height: 3px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 670px;
+    margin-bottom: 10%;  
+}
+.page_a_propos_titre{
+    background-image: url("../../../public/img/background_formulaire.webp");
+    background-size:cover;
+    height: 500px;
+}
+.page_a_propos__boite{
+    display: flex;
+    justify-content: center;
+
+}
+.page_a_propos__boite-text{
+    border: none;
+    background-color: var(--primary1);
+    width: 80%;
+    height: 30px;
+    border-radius: 45px;
+    border: #000 solid 1px;
+    text-align: center;
+    font-family: var(--fontreleway);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-top: 5px;    
+}
+.form__button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}

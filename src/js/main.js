@@ -9,3 +9,12 @@ let altText2 = ["portrait gustav stickley", "oeuvre oak and leather armchair", "
 
 let images3 = ["../../public/img/artistes/charles_rohlfs.webp", "../../public/img/artistes/Desk Chair.webp","../../public/img/artistes/Carved_Oak_Barrel_Chair.webp","../../public/img/artistes/octagonal_cabinet.webp"];
 let altText3 = ["portrait charles rohlfs", "oeuvre desk chair", "oeuvre Carved Oak Barrel Chair","oeuvre octagonal cabinet"]; 
+
+
+
+
+
+let images4 = ["../../public/img/oeuvres/lampe_bangalow.webp", "../../public/img/oeuvres/beaver.webp","../../public/img/oeuvres/Tulip_and_Rose.webp","../../public/img/oeuvres/gamble_house.webp","../../public/img/oeuvres/geoffrey.webp","../../public/img/oeuvres/pimpernel.webp","../../public/img/oeuvres/quaint.webp","../../public/img/oeuvres/Voysey.webp"];
+let altText4 = ["portrait charles rohlfs", "oeuvre desk chair", "oeuvre Carved Oak Barrel Chair","oeuvre octagonal cabinet"]; 
+let text4 = ["Lampe Bungalow","Beaver","Tulip and Rose","Gamble House","Geoffrey Chaucer's Canterbury Tales","Pimpernel","Quaint","Le buffet de Voysey "]
+let link4 = ["../../FR_HTML/Oeuvres/Lampe_Bungalow.html","../../FR_HTML/Oeuvres/beaver.html","../../FR_HTML/Oeuvres/tulip_and_rose.html","../../FR_HTML/Oeuvres/gamble_house.html","../../FR_HTML/Oeuvres/geofrey_chaucer.html","../../FR_HTML/Oeuvres/pimpernel.html","../../FR_HTML/Oeuvres/quaint.html","../../FR_HTML/Oeuvres/voysey.html"];

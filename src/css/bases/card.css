@@ -73,29 +73,39 @@ i {
 
 }
 .arrow_1{
-    position: absolute; /* pour positionner les éléments enfants en absolu*/
-    top: 145%; /* positionne l'élément au centre de la div parent en hauteur*/
-    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
-    font-size: 50px;
+    position: absolute;
+    top: 145%; 
+    transform: translateY(-50%); 
     color: #fff;
     text-decoration: none;
     text-align: center;
+    font-size: 50px;
 }
 .arrow_2{
-    position: absolute; /* pour positionner les éléments enfants en absolu*/
-    top: 240%; /* positionne l'élément au centre de la div parent en hauteur*/
-    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
-    font-size: 50px;
+    position: absolute; 
+    top: 240%; 
+    transform: translateY(-50%); 
     color: #fff;
     text-decoration: none;
     text-align: center;
+    font-size: 50px;
 }
 .arrow_3{
-    position: absolute; /* pour positionner les éléments enfants en absolu*/
-    top: 335%; /* positionne l'élément au centre de la div parent en hauteur*/
-    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
-    font-size: 50px;
+    position: absolute; 
+    top: 335%; 
+    transform: translateY(-50%); 
     color: #fff;
     text-decoration: none;
     text-align: center;
+    font-size: 50px;
+}
+.arrow_4{
+    position: absolute; 
+    top: 45%; 
+    transform: translateY(-50%); 
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
 }
