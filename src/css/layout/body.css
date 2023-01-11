@@ -138,7 +138,6 @@
     margin: 30px;
 }
 .artistes__boite-titre{
-    margin-top: ;
     margin-left: 20px;
     margin-bottom: 15px;
 }
@@ -195,4 +194,102 @@
     display: flex;
     flex-direction: column;
 
+}
+.page_expo_titre{
+  background-image: url("../../../public/img/background_titre.webp");
+  background-size:cover;
+  height: 80px;
+}
+.page_expo_titre__boite{
+   display: flex;
+   justify-content: center;
+}
+.page_expo_titre__boite-text{
+    border: none;
+    background-color: var(--primary1);
+    width: 80%;
+    height: 30px;
+    border-radius: 45px;
+    border: #000 solid 1px;
+    text-align: center;
+    font-family: var(--fontreleway);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-top: 5px;    
+}
+.page_expo_text{
+    margin: 5%;
+    width: 86%;
+}
+.page_expo{
+    background-image: url("../../../public/img/background_expo.webp");
+    background-size:cover;
+    height: 500px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.page_expo__boite{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary1);
+    display: flex;
+    border-radius: 20px;
+    margin: 30px;
+}
+.page_expo__boite-titre{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.page_expo__boite-text{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.page_expo__img{
+
+}
+.expo_tarif{
+
+}
+.expo_tarif__titre{
+    margin-top: 0;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.expo_tarif__texte{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.expo_tarif_titre5{
+    font-family: var(--fontdisplay);
+    font-weight: 500;
+    font-size: 1.16rem;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.expo_tarif__texte{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.expo_tarif__button{
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+}
+.expo_tarif__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+.expo_tarif__list-text{
+    font-family: var(--fontreleway);
+    font-weight: 300;
+    font-size: 1.125rem;
 }
