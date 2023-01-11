@@ -590,7 +590,12 @@
 }
 .accueil__button-text-404{
     display: flex;
-    bottom: 570px;
+    bottom: 250px;
     justify-content: center;
     position: relative;
+    border: none;
+    background-color: var(--secondary1);
+    width: 280px;
+    height: 55px;
+    border-radius: 45px;
 }
