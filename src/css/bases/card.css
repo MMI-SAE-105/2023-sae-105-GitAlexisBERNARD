@@ -1,0 +1,101 @@
+i {
+    vertical-align: middle;
+}
+.carte_artistes_1{
+    background-image: url("../../../public/img/background_artistes_1.webp");
+    height: 680px;
+    background-size:cover;
+}
+.carte_artistes_2{
+    background-image: url("../../../public/img/background_artistes_2.webp");
+    height: 680px;
+    background-size:cover;
+}
+.carte_artistes_3{
+    background-image: url("../../../public/img/background_artistes_3.webp");
+    height: 680px;
+    background-size:cover;
+}
+.carte_artistes_4{
+    background-image: url("../../../public/img/background_artistes_4.webp");
+    height: 680px;
+    background-size:cover;
+}
+.arrow{
+    position: absolute; /* pour positionner les éléments enfants en absolu*/
+    top: 50%; /* positionne l'élément au centre de la div parent en hauteur*/
+    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.arrow_left{
+    left: 0; /* positionne l'élément à gauche de la div parent*/
+}
+.arrow_right{
+    right: 0; /* positionne l'élément à droite de la div parent*/
+}
+.carte_artistes__img{
+    display: flex;
+    justify-content: center;
+    margin-left: 13%;
+    padding-top: 10%;  
+    width: 73%; 
+}
+.carte_artistes_titre{
+    background-color: var(--primary1);
+    height: 100%;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.carte_artistes_text{
+    height: 100%;
+    width: 80%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+
+
+.carte_boite{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary1);
+    display: flex;
+    border-radius: 20px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 8%;
+
+
+}
+.arrow_1{
+    position: absolute; /* pour positionner les éléments enfants en absolu*/
+    top: 145%; /* positionne l'élément au centre de la div parent en hauteur*/
+    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.arrow_2{
+    position: absolute; /* pour positionner les éléments enfants en absolu*/
+    top: 240%; /* positionne l'élément au centre de la div parent en hauteur*/
+    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.arrow_3{
+    position: absolute; /* pour positionner les éléments enfants en absolu*/
+    top: 335%; /* positionne l'élément au centre de la div parent en hauteur*/
+    transform: translateY(-50%); /* pour centrer l'icone verticalement par rapport à son parent*/
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}

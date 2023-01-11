@@ -395,4 +395,47 @@
     margin-right: 10px;
     margin-top: 0;
 }
+.page_artistes_titre{
+    background-image: url("../../../public/img/background_titre.webp");
+    background-size:cover;
+    height: 80px;
+}
+.page_artistes__boite{
+    display: flex;
+    justify-content: center;
+}
+.page_artistes__boite-text{
+    border: none;
+    background-color: var(--primary1);
+    width: 90%;
+    height: 30px;
+    border-radius: 45px;
+    border: #000 solid 1px;
+    text-align: center;
+    font-family: var(--fontreleway);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-top: 5px;    
+}
+.page_artistes_text{
+    margin: 5%;
+    width: 86%;
+    text-align: center;
+}
+
+.page_artistes__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.page_artistes__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+.pa
 
