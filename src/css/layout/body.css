@@ -246,12 +246,8 @@
     margin-right: 10px;
     margin-top: 0;
 }
-.page_expo__img{
 
-}
-.expo_tarif{
 
-}
 .expo_tarif__titre{
     margin-top: 0;
     text-align: start;
@@ -322,11 +318,9 @@
     width: 86%;
 }
 .page_expo{
-    background-image: url("../../../public/img/background_expo.webp");
+    background-image: url("../../../public/img/background_titre.webp");
     background-size:cover;
-    height: 500px;
-    padding-top: 15px;
-    margin-top: 20px;
+    height: 80px;
 }
 
 .page_billeterie__button{
@@ -346,3 +340,59 @@
 .page_billeterie__endtext{
     text-align: center;
 }
+
+.page_artcraft_titre{
+    background-image: url("../../../public/img/background_titre.webp");
+    background-size:cover;
+    height: 80px;
+}
+.page_artcraft_titre__boite{
+    display: flex;
+    justify-content: center;
+}
+.page_artcraft_titre__boite-text{
+    border: none;
+    background-color: var(--primary1);
+    width: 90%;
+    height: 30px;
+    border-radius: 45px;
+    border: #000 solid 1px;
+    text-align: center;
+    font-family: var(--fontreleway);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-top: 5px;    
+}
+.page_artcraft_text{
+    margin: 5%;
+    width: 86%;
+}
+.page_artcraft{
+    background-image: url("../../../public/img/background_art_craft.webp");
+    background-size:cover;
+    height: 3px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 330px;
+    margin-bottom: 10%;
+}
+.page_artcraft__boite{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary1);
+    display: flex;
+    border-radius: 20px;
+    margin: 30px;
+    padding-top: 15px;
+}
+.page_artcraft__boite-titre{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.page_artcraft__boite-titre{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
