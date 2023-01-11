@@ -293,3 +293,56 @@
     font-weight: 300;
     font-size: 1.125rem;
 }
+
+.page_billeterie_titre{
+    background-image: url("../../../public/img/background_titre.webp");
+    background-size:cover;
+    height: 80px;
+  }
+.page_billeterie__boite{
+     display: flex;
+     justify-content: center;
+  }
+  .page_billeterie_boite-text{
+      border: none;
+      background-color: var(--primary1);
+      width: 80%;
+      height: 30px;
+      border-radius: 45px;
+      border: #000 solid 1px;
+      text-align: center;
+      font-family: var(--fontreleway);
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.5rem;
+      padding-top: 5px;    
+}
+.page_billeterie_texte{
+    margin: 5%;
+    width: 86%;
+}
+.page_expo{
+    background-image: url("../../../public/img/background_expo.webp");
+    background-size:cover;
+    height: 500px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.page_billeterie__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url("../../../public/img/background_button_billeterie.webp");
+}
+.page_billeterie__button-text{
+    border: none;
+    background-color: var(--secondary1);
+    width: 170px;
+    height: 50px;
+    border-radius: 45px;
+}
+.page_billeterie__endtext{
+    text-align: center;
+}
