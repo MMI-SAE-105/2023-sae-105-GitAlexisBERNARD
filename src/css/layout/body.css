@@ -588,3 +588,9 @@
     justify-content: center;
     position: relative;
 }
+.accueil__button-text-404{
+    display: flex;
+    bottom: 570px;
+    justify-content: center;
+    position: relative;
+}
